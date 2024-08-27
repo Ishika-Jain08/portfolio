@@ -1,0 +1,69 @@
+.pro-container{
+    margin-bottom: 30px;
+    padding:80px;
+    margin-top: 10px;
+    height: 650px;
+}
+.pro-con{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    /* background-color: red; */
+   margin-left: 180px;
+}
+.pro-card{
+    width: 28%;
+    height: 204px;
+    border-radius: 15px;
+    box-shadow: 0 5px 8px rgba(136, 25, 25, 0.15);
+    transition: 0.5s;
+}
+.pro-card:hover{
+    transform: scale(1.05);
+    /* color: var(--main-color); */
+
+}
+.img-box{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 15px;
+    object-position: top;
+}
+.pro-content{
+text-align: center;
+/* color: var(--main-color); */
+font-weight: bold;
+font-size: 12px;
+}
+
+.overlay {
+    position: absolute;
+    top:  12%;
+    left: 0;
+    width: 70%;
+    height: 50%;
+    background-color:#000a;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 40px;
+    /* gap: 5px; */
+}
+.pro-card:hover .overlay{
+    opacity: 1;
+}
+.name{
+    font-weight: 500;
+}
+.btn{
+    color: #fff;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    padding: 5px;
+
+}

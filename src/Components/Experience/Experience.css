@@ -1,0 +1,21 @@
+.exp-container{
+    /* background-color: aquamarine; */
+   padding: 100px;
+}
+.exp-content{
+    margin-top: 30px;
+}
+.exp-list{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 14px;
+    transition: 0.5s;
+    box-shadow: 0 5px 8px rgba(0, 0,0,0.15);
+}
+.exp-list:hover{
+    transform: scale(1.01);
+}
+.exp{
+    position: relative;
+    left: 3%;
+}
