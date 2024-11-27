@@ -1,48 +1,70 @@
-import React from "react";
-import "../Achievement/Achievement.css";
+/* eslint-disable react/no-unescaped-entities */
 
-const Project = () => {
+const Achievement = () => {
   return (
     <>
-      <div className="ach-container">
-        <span>ACHIEVEMENTS</span>
-        <h1>What I've Achieve</h1>
-        <div className="ach-con">
-          <div className="ach-card">
-            <h2 className="ach-text">🏅   <span>  TCS iON Career Edge </span> Young Professional</h2>
+      <div className="p-16 h-[500px]">
+        <span className="block text-lg font-semibold text-gray-700">
+          ACHIEVEMENTS
+        </span>
+        <h1 className="text-3xl font-bold text-gray-800 mb-8">
+          What I've Achieved
+        </h1>
+        <div className="mt-8 relative left-[20%]">
+          <div className="mb-4 p-4 w-[50%] h-[50px] rounded-md shadow-md transition-transform duration-500 hover:scale-[1.01]">
+            <h2 className="text-sm font-bold text-gray-800">
+              🏅 <span className="font-semibold text-main-color">TCS iON Career Edge</span>
+              Young Professional
+            </h2>
           </div>
 
-
-
-          <div className="ach-card">
-            <h2 className="ach-text">🏅Completed a <span>Full Stack Java</span> training program at Capgemini.</h2>
+          <div className="mb-4 p-4 w-[50%] h-[50px] rounded-md shadow-md transition-transform duration-500 hover:scale-[1.01]">
+            <h2 className="text-sm font-bold text-gray-800">
+              🏅 Completed a
+              <span className="font-semibold text-main-color">Full Stack Java</span> training
+              program at Capgemini.
+            </h2>
           </div>
 
-          <div className="ach-card">
-            <h2 className="ach-text">🏅 Successfully Completed a <span> NodeJS  </span> course at Coding Ninjas.</h2>
+          <div className="mb-4 p-4 w-[50%] h-[50px] rounded-md shadow-md transition-transform duration-500 hover:scale-[1.01]">
+            <h2 className="text-sm font-bold text-gray-800">
+              🏅 Successfully Completed a
+              <span className="font-semibold text-main-color">NodeJS</span> course at Coding
+              Ninjas.
+            </h2>
           </div>
 
-          <div className="ach-card">
-            <h2 className="ach-text">🏅Earned a <span>JavaScript Course Completion Certificate</span> from Simplilearn|SkillUP</h2>
-          </div>
-          
-          <div className="ach-card">
-            <h2 className="ach-text">🏅 Participated in the <span> All India National Career Aptitude Test (NCAT) </span> organized by Naukri Campus.</h2>
-          </div>
-
-
-
-          <div className="ach-card">
-            <h2 className="ach-text">🏅Certified in <span> Mastering Interviews, Optimizing LinkedIn Profile, and Crafting an Effective CV </span>from CVDragon.</h2>
+          <div className="mb-4 p-4 w-[50%] h-[50px] rounded-md shadow-md transition-transform duration-500 hover:scale-[1.01]">
+            <h2 className="text-sm font-bold text-gray-800">
+              🏅 Earned a
+              <span className="font-semibold text-main-color">
+                JavaScript Course Completion Certificate
+              </span>
+              from Simplilearn | SkillUP.
+            </h2>
           </div>
 
+          <div className="mb-4 p-4 w-[50%] h-[60px] rounded-md shadow-md transition-transform duration-500 hover:scale-[1.01]">
+            <h2 className="text-sm font-bold text-gray-800">
+              🏅 Participated in the
+              <span className="font-semibold text-main-color">
+                All India National Career Aptitude Test (NCAT)
+              </span>
+              organized by Naukri Campus.
+            </h2>
+          </div>
 
-
+          <div className="mb-4 p-4 w-[50%] h-[50px] rounded-md shadow-md transition-transform duration-500 hover:scale-[1.01]">
+            <h2 className="text-sm font-bold text-gray-800">
+              🏅 Certified in
+              <span className="font-semibold text-main-color">Mastering DBMS Fundamentals</span>
+              from Scaler Topics.
+            </h2>
+          </div>
         </div>
       </div>
-     
     </>
   );
 };
 
-export default Project;
+export default Achievement;

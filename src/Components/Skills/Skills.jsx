@@ -1,55 +1,104 @@
-import React from 'react'
-import "../Skills/Skills.css"
-import expIMG from "../../assets/express.webp"
-import javaIMG from "../../assets/java.svg"
-import mongoDB from "../../assets/mongodb.svg"
-import mySql from "../../assets/mysql.svg"
-import html from "../../assets/html5.svg"
-import css from "../../assets/css3.svg"
-import javaScript from "../../assets/javascript.svg"
-import react from "../../assets/react.svg"
-import node from "../../assets/nodejs.svg"
-import next from "../../assets/nextjs-icon.svg"
-import bootstrap from "../../assets/bootstrap.svg"
-import sql from "../../assets/sql.svg"
-import tailwind from "../../assets/tailwind.svg"
+import expIMG from "../../assets/express.webp";
+import javaIMG from "../../assets/java.svg";
+import mongoDB from "../../assets/mongodb.svg";
+import mySql from "../../assets/mysql.svg";
+import html from "../../assets/html5.svg";
+import javaScript from "../../assets/javascript.svg";
+import react from "../../assets/react.svg";
+import node from "../../assets/nodejs.svg";
+import next from "../../assets/nextjs-icon.svg";
+import sql from "../../assets/sql.svg";
+import tailwind from "../../assets/tailwind.svg";
 import redux from "../../assets/redux.png";
-import sass from "../../assets/sass.png";
 import TS from "../../assets/ts.png";
-import  postman from "../../assets/postman.svg";
+import postman from "../../assets/postman.svg";
+import neon from "../../assets/neon.png";
+import orm from "../../assets/orm.png";
 import postsql from "../../assets/postsql.svg";
+
 function Skills() {
   return (
     <>
-       <section className='skill-container'>
-       <div className='skill-content'>
-       <span className="about">SKILLS</span>
-           <h1 className="defines">What I Can Do</h1>
-        <ul>
-          <li><img  src={html}/>HTML</li>
-          <li><img src={css}/>CSS</li>
-          <li><img  src={tailwind}/>Tailwind</li>
-          <li><img  src={sass}/>SASS</li>
-          <li><img  src={javaScript}/>JavaScript</li>
-          <li><img  src={TS}/>TypeScript</li>
-          <li><img  src={react}/>ReactJS</li>
-          <li><img  src={bootstrap}/>Bootstrap</li>
-          <li><img  src={redux}/>Redux</li>
-          <li><img  src={next}/>NextJS</li>
-          <li><img className='skill' src={node}/>NodeJS</li>
-          <li><img  src={expIMG}/>ExpressJS</li>
-          <li><img className='skill' src={javaIMG}/>Java </li>
-          <li><img className='skill' src={mongoDB}/> MongoDB</li>
-          <li><img  src={sql}/>SQL</li>
-          <li><img className='skill' src={mySql}/>MySQL</li>
-          <li><img  src={postsql}/>postgreSQL</li>
-          <li><img  src={postman}/>postman</li>
+      <section className="w-full p-4 mt-5">
+        <div className="text-center">
+          <span className="text-lg font-semibold text-gray-700">SKILLS</span>
+          <h1 className="text-2xl font-bold text-gray-800 mt-2">
+            What I Can Do
+          </h1>
+        </div>
+        <ul className="relative flex flex-wrap items-center justify-start gap-4 mt-10 px-4">
+          <li className="w-[15%] h-16 flex justify-center items-center gap-5 p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 hover:text-blue-500">
+            <img src={html} className="w-10" alt="HTML" />
+            HTML
+          </li>
+          <li className="w-[15%] h-16 flex justify-center items-center gap-5 p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 hover:text-blue-500">
+            <img src={tailwind} className="w-10" alt="Tailwind" />
+            Tailwind
+          </li>
+          <li className="w-[15%] h-16 flex justify-center items-center gap-5 p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 hover:text-blue-500">
+            <img src={javaScript} className="w-10" alt="JavaScript" />
+            JavaScript
+          </li>
+          <li className="w-[15%] h-16 flex justify-center items-center gap-5 p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 hover:text-blue-500">
+            <img src={TS} className="w-10" alt="TypeScript" />
+            TypeScript
+          </li>
+          <li className="w-[15%] h-16 flex justify-center items-center gap-5 p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 hover:text-blue-500">
+            <img src={react} className="w-10" alt="ReactJS" />
+            ReactJS
+          </li>
+          <li className="w-[15%] h-16 flex justify-center items-center gap-5 p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 hover:text-blue-500">
+            <img src={redux} className="w-10" alt="Redux" />
+            Redux
+          </li>
+          <li className="w-[15%] h-16 flex justify-center items-center gap-5 p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 hover:text-blue-500">
+            <img src={next} className="w-10" alt="NextJS" />
+            NextJS
+          </li>
+          <li className="w-[15%] h-16 flex justify-center items-center gap-5 p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 hover:text-blue-500">
+            <img src={node} className="w-14" alt="NodeJS" />
+            NodeJS
+          </li>
+          <li className="w-[15%] h-16 flex justify-center items-center gap-5 p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 hover:text-blue-500">
+            <img src={expIMG} className="w-10" alt="ExpressJS" />
+            ExpressJS
+          </li>
+          <li className="w-[15%] h-16 flex justify-center items-center gap-5 p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 hover:text-blue-500">
+            <img src={javaIMG} className="w-14" alt="Java" />
+            Java
+          </li>
+          <li className="w-[15%] h-16 flex justify-center items-center gap-5 p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 hover:text-blue-500">
+            <img src={mongoDB} className="w-20" alt="MongoDB" />
+            MongoDB
+          </li>
+          <li className="w-[15%] h-16 flex justify-center items-center gap-5 p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 hover:text-blue-500">
+            <img src={neon} className="w-8" alt="Neon" />
+            Neon
+          </li>
+          <li className="w-[15%] h-16 flex justify-center items-center gap-5 p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 hover:text-blue-500">
+            <img src={orm} className="w-8" alt="Drizzle ORM" />
+            Drizzle ORM
+          </li>
+          <li className="w-[15%] h-16 flex justify-center items-center gap-5 p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 hover:text-blue-500">
+            <img src={sql} className="w-10" alt="SQL" />
+            SQL
+          </li>
+          <li className="w-[15%] h-16 flex justify-center items-center gap-5 p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 hover:text-blue-500">
+            <img src={mySql} className="w-14" alt="MySQL" />
+            MySQL
+          </li>
+          <li className="w-[15%] h-16 flex justify-center items-center gap-5 p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 hover:text-blue-500">
+            <img src={postsql} className="w-10" alt="PostgreSQL" />
+            PostgreSQL
+          </li>
+          <li className="w-[15%] h-16 flex justify-center items-center gap-5 p-4 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 hover:text-blue-500">
+            <img src={postman} className="w-10" alt="Postman" />
+            Postman
+          </li>
         </ul>
-       </div>
-
-       </section>
+      </section>
     </>
-  )
+  );
 }
 
-export default Skills
+export default Skills;
